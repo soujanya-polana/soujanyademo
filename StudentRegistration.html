@@ -184,9 +184,7 @@ id="personaladdress" size="30"></td>
   var mailformat ="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"; 
   if(email.match(mailformat))
    {
-     alert("Please enter correct email ID")
-     document.StudentRegistration.emailid.focus() ;
-      return true;  
+      document.StudentRegistration.emailid.focus() ;
   }  
   else  
   {  
