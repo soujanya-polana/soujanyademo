@@ -181,7 +181,7 @@ id="personaladdress" size="30"></td>
      return false;
    }
  var email = document.StudentRegistration.emailid.value;
-  var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/; 
+  var mailformat ="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"; 
   if(email.value.match(mailformat))
    {
      alert("Please enter correct email ID")
